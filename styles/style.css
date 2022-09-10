@@ -1,0 +1,105 @@
+ 
+ body{
+    background-color: rgb(34, 34,34);
+    color: aliceblue;
+    font-family:poppinsbold;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+ }
+
+ 
+ 
+ header{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ #title{
+    flex-direction: column;
+    line-height: 10px;
+ }
+
+ h1{
+    font-weight: 200;
+
+ }
+
+ li{
+    display: inline-block;
+    margin: 20px;
+ }
+
+ a{
+color: white;
+
+ }
+
+ a:hover{
+  color:blueviolet;
+  font-size: 25px;
+  transition: 0.3 all;
+  
+ }
+
+  #btn{
+ border: 2px solid blueviolet;
+ border-radius: 18px;
+ padding: 10px;
+ }
+ 
+ #btn:hover{
+    color: white;
+    background-color: blueviolet;
+ }
+
+
+ main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+ }
+
+ h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+ }
+ span{
+    color:blueviolet;
+ }
+ p{
+    text-align: justify;
+    font-size: 30px;
+ }
+
+ img{
+     width: 580px;
+ }
+
+ form{
+display: flex;
+flex-direction: column;
+width: 70%;
+ }
+
+ input{
+    margin-top: 20px;
+    border-radius: 20px;
+    border:none;
+    padding: 15px;
+    font-size: 15px;
+ }
+ #btnSubmit{
+    width: 50%;
+    height: 42px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+ }
+
+ #btnSubmit:hover{
+    cursor: pointer;
+ }
